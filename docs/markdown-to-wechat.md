@@ -52,7 +52,7 @@ source_url: 原文地址（选填）
 
 通过 wenyan-cli 可以指出微信公众号，流程如下：
 
-![wenyan-cli](wenyan-cli.png)
+![wenyan-cli](./assets/images/wenyan-cli.png)
 
 通过如下命令进行发布：
 
