@@ -1,6 +1,6 @@
 ---
 title: 将 HTTP 服务封装成 Feign 接口
-cover: ./spring-cloud.png
+cover: ./assets/images/spring-cloud.png
 author: D瓜哥
 ---
 
