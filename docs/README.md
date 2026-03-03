@@ -3,12 +3,20 @@ home: true
 title: Home
 heroImage: https://vuejs.press/images/hero.png
 actions:
-  - text: Get Started
-    link: /get-started.html
+  # - text: 使用 wenyan-cli 从 Markdown 直发微信公众号
+  #   link: /markdown-to-wechat.html
+  #   type: primary
+
+  - text: MySQL 学习笔记
+    link: https://notes.diguage.com/mysql/
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: 深入学习设计模式
+    link: https://notes.diguage.com/design-patterns/
+    type: secondary
+
+  - text: Java 并发学习笔记
+    link: https://notes.diguage.com/java-concurrency/
     type: secondary
 
 features:
