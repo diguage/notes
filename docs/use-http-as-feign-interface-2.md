@@ -46,7 +46,7 @@ Feign 是 接口，所以可以很容易 Mock。
 可以通过实现 `BeanFactoryPostProcessor` 接口，来替换 `FeignClient` 为 Mockito。
 
 ```java
-package com.bitunix.payment.api.mock;
+package com.diguage.api.mock;
 
 import org.mockito.Mockito;
 import org.springframework.beans.BeansException;
@@ -60,9 +60,9 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.core.Ordered;
 import org.springframework.util.ClassUtils;
 
-  /**
-   * @author D瓜哥 · https://www.diguage.com
-   */
+/**
+ * @author D瓜哥 · https://www.diguage.com
+ */
 public class FeignClientMockBeanFactoryPostProcessor implements BeanFactoryPostProcessor, Ordered {
   @Override
   public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
